@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password: mani@1234
+    url: jdbc:mysql://localhost:3307/Data_Collection
+    driver-class-name: com.mysql.cj.jdbc.Driver 
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update 
+    mvc:
+     pathmatch:
+       matching-strategy: ANT_PATH_MATCHER
